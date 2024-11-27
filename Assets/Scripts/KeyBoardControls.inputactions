@@ -1,0 +1,156 @@
+{
+    "name": "KeyBoardControls",
+    "maps": [
+        {
+            "name": "VerticalControl",
+            "id": "7c1a42f6-8a14-4949-80d6-67e1bc074e46",
+            "actions": [
+                {
+                    "name": "UpAndDown",
+                    "type": "Button",
+                    "id": "44f7a33e-3f50-4814-bcb3-ba8ad5ae7175",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "6e30b6fa-242f-4f6a-a94f-170d60ee4ed8",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpAndDown",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "221837fc-bcb2-4acd-9f99-e8ad4e041d81",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpAndDown",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "29f115c4-0a2d-4e5e-8c9f-73b9975a6bcc",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpAndDown",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "HorizontalControl",
+            "id": "2f9e116e-127d-4360-a443-9b16fb4b3aab",
+            "actions": [
+                {
+                    "name": "RightAndLeft",
+                    "type": "Button",
+                    "id": "21b68cbe-effd-44ff-9661-8bf675348a3e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "007f3151-7037-4c9f-9a2f-3b251fe2d963",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightAndLeft",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "a1b4206a-dd0d-47c9-a37d-b92887ad8cff",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightAndLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "08fa3540-01a8-41bd-99d0-5fb0ed359365",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightAndLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "DepthControl",
+            "id": "4222e9eb-f08e-44b5-857f-6705cc388a9e",
+            "actions": [
+                {
+                    "name": "BackAndFoward",
+                    "type": "Button",
+                    "id": "5f7bb2db-1b26-48bd-b3ec-f7299b2e1510",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "62091a1d-6bb3-404e-9221-710d83072e0a",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackAndFoward",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "805c808e-ad3f-43b0-a527-184c5a05c4e4",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackAndFoward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "2c3ff8be-d489-4575-ae89-3446478e611d",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackAndFoward",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
